@@ -1,0 +1,6 @@
+vertexlitgeneric
+{
+	"$basetexture" "laptop/planets/sky1"
+$translucent "1"
+"$model" 1
+}

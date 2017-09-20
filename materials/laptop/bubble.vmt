@@ -1,0 +1,6 @@
+unlitgeneric
+{
+	"$basetexture" "laptop/bubble"
+"$translucent" 1
+$transparent "1"
+}

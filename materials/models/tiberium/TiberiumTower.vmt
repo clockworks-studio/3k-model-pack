@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/tiberium/TiberiumTower"
+"$model" 1
+"$translucent" "1" 
+   "$additive" "1" 
+"$bluramount" "1"
+"$refractamount" ".100"
+"$scale" "[1 1]"
+"$normalmap" "laptop/clearice_normal"
+"$dudvmap" "laptop/clearice_dudv"
+"$envmap" "env_cubemap"
+"envmaptint" "[.7 .7 .7]"
+"$REFRACTTINTTEXTURE" "laptop/clearice"
+}

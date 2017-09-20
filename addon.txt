@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"TKMP"
+	"version"		"GIT"
+	"up_date"		""
+	"author_name"	""
+	"author_email"	""
+	"author_url"	""
+	"info"			""
+}

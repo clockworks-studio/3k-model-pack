@@ -1,0 +1,15 @@
+"VertexLitGeneric" 
+{
+	"$basetexture" "models/screen"
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "30" 
+		}
+	}
+	"$surfaceprop" "metal"
+	"$frame"	"90"
+}

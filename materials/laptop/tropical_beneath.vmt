@@ -1,0 +1,51 @@
+"Water"
+{
+	"<dx90"
+	{
+		"$fallbackmaterial" "laptop/tropical"
+	}
+
+	"$abovewater" 0
+	"%compilewater" 1
+	"$forceexpensive" 1
+	"$reflectentities" 0
+	"$tooltexture" "tools/toolstrigger"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" ".5"
+
+
+//	"$reflecttexture" "_rt_WaterReflection"
+//	"$reflectamount" "2.0"
+//	"$reflecttint" "[1 1 1]"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "nature/water_frame01_dudv"
+	"$normalmap" "nature/water_frame01_normal"
+
+	"$surfaceprop" "water"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{0 128 255}"
+	"$fogstart" 512
+	"$fogend" 1024
+
+	"$scroll1" "[.01 .01 .05]"
+	"$scroll2" "[-.025 .025 .075]"
+
+
+	$underwateroverlay "effects/water_warp01"
+
+	"Proxies"
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .01
+			"texturescrollangle" 65.00
+		}
+	}
+		
+}
